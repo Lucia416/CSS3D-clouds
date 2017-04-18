@@ -1,0 +1,22 @@
+#viewport{
+  bottom: 0;
+  left: 0;
+  overflow:hidden;
+  perspective: 400;
+  position:absolute;
+  right:0;
+  top:0;
+  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.28, rgb(69,132,180)), color-stop(0.64, rgb(31,71,120)) );
+}
+
+#world{
+  height: 512px;
+  width:512px;
+  top:50%;
+  left:50%;
+  margin-top: -256px;
+  margin-left: -256px;
+  position:absolute;
+  transform-style: preserve-3d;
+  background-color: rgba( 255, 0, 0, .2 );
+}
