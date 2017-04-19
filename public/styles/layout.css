@@ -2,7 +2,7 @@
   bottom: 0;
   left: 0;
   overflow:hidden;
-  perspective: 400;
+  perspective: 400px;
   position:absolute;
   right:0;
   top:0;
@@ -19,4 +19,49 @@
   position:absolute;
   transform-style: preserve-3d;
   background-color: rgba( 255, 0, 0, .2 );
+}
+
+.clouds{
+  background-color: rgba( 255, 0, 0, .5 );
+  position: absolute;
+  left: 256px;
+  top: 256px;
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  margin-top: -10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cloudLayer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 256px;
+  height: 256px;
+  margin-left: -128px;
+  margin-top: -128px;
+  background-color: rgba( 0, 255, 255, .1 );
+  -webkit-transition: opacity .5s ease-out;
+}
+#one{
+  transform: translateX(180.039px) translateY(10.5231px) translateZ(229.459px);
+}
+
+#two{
+  transform: translateX(-128.837px) translateY(142.859px) translateZ(143.182px);
+}
+
+#three{
+  transform: translateX(74.9643px) translateY(-41.4361px) translateZ(-165.158px);
+}
+
+#four{
+  transform: translateX(-231.25px) translateY(219.646px) translateZ(-255.211px);
+}
+
+#five{
+  transform: translateX(50.1645px) translateY(99.6558px) translateZ(115.518px);
 }
